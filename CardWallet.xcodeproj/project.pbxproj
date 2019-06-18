@@ -15,6 +15,7 @@
 		5BBA58D022B8731700F1A743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBA58CE22B8731700F1A743 /* LaunchScreen.storyboard */; };
 		5BBA58DB22B8731700F1A743 /* CardWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA58DA22B8731700F1A743 /* CardWalletTests.swift */; };
 		5BBA58E622B8731700F1A743 /* CardWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA58E522B8731700F1A743 /* CardWalletUITests.swift */; };
+		5BBA58F422B874D500F1A743 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA58F322B874D500F1A743 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5BBA58E122B8731700F1A743 /* CardWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBA58E522B8731700F1A743 /* CardWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWalletUITests.swift; sourceTree = "<group>"; };
 		5BBA58E722B8731700F1A743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBA58F322B874D500F1A743 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				5BBA58C122B8731500F1A743 /* CardWallet */,
-				5BBA58D922B8731700F1A743 /* CardWalletTests */,
 				5BBA58E422B8731700F1A743 /* CardWalletUITests */,
 				5BBA58C022B8731500F1A743 /* Products */,
 			);
@@ -101,11 +102,13 @@
 			children = (
 				5BBA58C222B8731500F1A743 /* AppDelegate.swift */,
 				5BBA58C422B8731500F1A743 /* ViewController.swift */,
+				5BBA58D922B8731700F1A743 /* CardWalletTests */,
 				5BBA58C622B8731500F1A743 /* Main.storyboard */,
 				5BBA58CC22B8731700F1A743 /* Assets.xcassets */,
 				5BBA58CE22B8731700F1A743 /* LaunchScreen.storyboard */,
 				5BBA58D122B8731700F1A743 /* Info.plist */,
 				5BBA58C922B8731500F1A743 /* CardWallet.xcdatamodeld */,
+				5BBA58F322B874D500F1A743 /* MyCell.swift */,
 			);
 			path = CardWallet;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BBA58C522B8731500F1A743 /* ViewController.swift in Sources */,
+				5BBA58F422B874D500F1A743 /* MyCell.swift in Sources */,
 				5BBA58C322B8731500F1A743 /* AppDelegate.swift in Sources */,
 				5BBA58CB22B8731500F1A743 /* CardWallet.xcdatamodeld in Sources */,
 			);
